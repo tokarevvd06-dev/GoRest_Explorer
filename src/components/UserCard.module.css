@@ -1,0 +1,15 @@
+.name {
+    margin: 0 0 24px 0;
+  }
+  
+  .field {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+  
+  .label {
+    font-weight: 600;
+    min-width: 80px;
+  }

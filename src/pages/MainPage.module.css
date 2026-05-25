@@ -1,0 +1,17 @@
+.container {
+    max-width: 480px;
+    margin: 40px auto;
+    padding: 24px;
+}
+
+.title {
+margin-bottom: 24px;
+}
+
+.modeSwitcher {
+margin-top: 24px;
+}
+
+.submitButton {
+margin-top: 24px;
+}
