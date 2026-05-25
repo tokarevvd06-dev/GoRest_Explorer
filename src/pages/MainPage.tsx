@@ -32,7 +32,7 @@ const MainPage = () => {
   
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Менеджер пользователей и постов</h1>
+      <h1 className={styles.title}>SPA для получения данных от GoRest API</h1>
       
       <TokenInput
         value={tokenValue}
