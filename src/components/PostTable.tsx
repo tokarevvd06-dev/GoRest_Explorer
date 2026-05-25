@@ -91,8 +91,8 @@ const PostTable = ({
           onChange={(value) => {
             if (value) onPerPageChange(value);
           }}
-          getItemLabel={(item) => String(item)}
-          getItemKey={(item) => String(item)}
+          getItemLabel={(item: PerPage) => String(item)}
+          getItemKey={(item: PerPage) => String(item)}
           size='l'
         />
       </div>
