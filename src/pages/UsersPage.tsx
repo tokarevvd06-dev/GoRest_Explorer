@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Button } from '@consta/uikit/Button';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { fetchUsers, setCurrentPage, setPerPage, clearUsers } from '../store/usersSlice';
 import UserTable from '../components/UserTable';
@@ -37,8 +38,11 @@ const UsersPage = () => {
   
   return (
     <div className={styles.container}>
-      <h1>Пользователи</h1>
-      
+      <div className={styles.header}>
+        <h1>Пользователи</h1>
+        <Button label="Посты" view="ghost" onClick={() => navigate('/posts')} />
+      </div>
+
       <UserTable
         users={list}
         loading={loading}
